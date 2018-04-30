@@ -1,10 +1,5 @@
 #!/usr/bin/python
 
-#the following exploit is used to detect valid account
-#in pln mobile, from the analysis of authentication
-#the application only need to use registered IMEI for
-#reset and authentication
-
 import random
 import pdb
 
