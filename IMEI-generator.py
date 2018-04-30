@@ -28,7 +28,6 @@ def luhn_algorithm_checking(imei_number):
 					result += temp
 			else:
 				result += int(imei_number[x])
-				print("count %d: %d | %d" % (x,result,int(imei_number[x])))
 		result += int(check_digit)
 		if result % 10 == 0:
 			print(imei_number+":"+str(result))
